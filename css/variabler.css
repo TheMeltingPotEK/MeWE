@@ -1,0 +1,44 @@
+:root {
+  /* =========================================
+     COLORS — BRAND PALETTE
+  ========================================== */
+
+  --color-bg: #6faf63; /* Main background green */
+  --color-head-bg: #2e6b3e; /* Dark header/footer green */
+  --color-contrast-green: #c3d3a5; /* Light green accent */
+  --color-accent-beige: #f1ebd9; /* Beige accent from style tile */
+  --color-cta: #d45a33; /* CTA / button red */
+
+  /* Text */
+  --color-text: #1b1b1b;
+  --color-text-inverted: #ffffff;
+
+  /* Cards */
+  --color-card-bg: #ffffff;
+
+  /* Borders */
+  --border-radius: 6px;
+
+  /* Shadows (matches your style tile card shadows) */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* =========================================
+     TYPOGRAPHY — Montserrat + Inter
+  ========================================== */
+
+  /* Font families (fonts loaded in HTML <head>) */
+  --font-family-heading: "Montserrat", sans-serif;
+  --font-family-body: "Inter", sans-serif;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Font sizes */
+  --font-h1-size: 3rem;
+  --font-h2-size: 2rem;
+  --font-h3-size: 1.5rem;
+  --font-body-size: 1rem;
+}

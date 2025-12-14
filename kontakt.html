@@ -10,8 +10,74 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variabler.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/kontakt.css" />
   </head>
   <body>
+    <!-- SECTION 1: HERO -->
+    <section class="kontakt_hero">
+      <div class="kontakt_hero__card">
+        <h1>Kontakt Me&We Fisketorvet</h1>
+        <p>
+          Har du spørgsmål til en bestilling, allergener eller noget praktisk?
+          Du kan kontakte os her.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 2: INFO + FORM -->
+    <section class="kontakt_content">
+      <div class="kontakt_content__inner">
+        <div class="kontakt_info">
+          <h2>Info</h2>
+          <p><strong>Adresse</strong><br />Fisketorvet 12, 2100 København Ø</p>
+          <p><strong>Åbningstider</strong><br />Man–Søn: 10–22</p>
+          <p>
+            <strong>Tlf. &amp; Email</strong><br />+45 12 34 56 78<br />info@meandwe.dk
+          </p>
+          <button type="button">Find os</button>
+        </div>
+
+        <form class="kontakt_form">
+          <h2>Kontaktformular</h2>
+          <input type="text" placeholder="Navn" required />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Tlf" />
+
+          <select>
+            <option value="">Vælg emne</option>
+            <option value="ordre">Ordre</option>
+            <option value="spg">Spørgsmål</option>
+            <option value="allergener">Allergener</option>
+            <option value="andet">Andet</option>
+          </select>
+
+          <textarea rows="5" placeholder="Besked" required></textarea>
+
+          <div class="checkbox">
+            <label><input type="checkbox" /> 1. må vi behandle...</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" /> 2. må vi dit dat</label>
+          </div>
+
+          <button type="submit" class="kontakt_form__submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- SECTION 3: CTA IMAGE -->
+    <section class="kontakt_cta">
+      <div class="kontakt_cta__overlay">
+        <div class="kontakt_cta__buttons">
+          <button type="button">Se menuen</button>
+          <button type="button">Bestil her</button>
+        </div>
+      </div>
+    </section>
+
     <script src="js/login.js"></script>
   </body>
 </html>

@@ -1,3 +1,10 @@
+body {
+  max-width: 1200px; /* Bredden på hele siden */
+  margin: 0 auto; /* Centrerer indholdet */
+  padding: 0 20px; /* Luft på siderne på små skærme */
+  box-sizing: border-box;
+}
+
 /* SEKSTION 1 */
 .hero_header {
   width: 100%;
@@ -12,6 +19,53 @@
   text-align: center;
 }
 
+.section1 {
+  width: 100%;
+}
+
+.hero_header {
+  position: relative;
+  height: 80vh; /* Højden på hero-sektionen */
+  background-image: url("din-baggrund.jpg"); /* Udskift med dit billede */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero_header__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Mørk overlay for bedre kontrast */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_header__content {
+  text-align: center;
+  color: #fff;
+  padding: 0 20px; /* Luft på siderne */
+  max-width: 800px;
+}
+
+.hero_header__content h1 {
+  font-size: 4rem; /* ME&WE */
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero_header__content h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
 /* SEKSTION 2 */
 .om_os {
   display: grid;
@@ -23,6 +77,9 @@
 /* Sørger for at overskriften går over begge kolonner */
 .om_os h1 {
   grid-column: 1 / -1;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  line-height: 2;
 }
 
 /* Billede */
@@ -40,8 +97,41 @@
 }
 
 /* SEKSTION 3 */
+.find_os h1 {
+  margin-bottom: 120px;
+  margin-top: 200px;
+  line-height: 2;
+}
+
+.lokationer-maps {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* To kolonner */
+  gap: 20px; /* Afstand mellem adresse og kort */
+  align-items: start;
+}
+
+.lokationer {
+  text-align: left; /* Venstrejusteret */
+  display: flex;
+  flex-direction: column; /* Adresserne stables lodret */
+  gap: 300px; /* Afstand mellem hver adresse */
+  line-height: 1.8;
+}
+
+.lokationer p {
+  gap: 200px;
+  line-height: 5;
+}
+
+.maps {
+  justify-self: end; /* Højre side */
+}
 
 /* GENERAL */
+
+main {
+  background-color: #f1ebd9;
+}
 
 @media (max-width: 768px) {
   .om_os {

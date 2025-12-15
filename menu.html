@@ -3,78 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Menu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="generel.css" />
-    <link rel="stylesheet" href="variabler.css" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/variabler.css" />
+    <link rel="stylesheet" href="css/header_footer.css" />
+    <link rel="stylesheet" href="css/ophelie-generel.css" />
+    <link rel="stylesheet" href="css/ophelie-style.css" />
   </head>
-  <header>
-    <nav>
-      <ul class="menu">
-        <li>
-          <a href="menu.html">Menu</a>
-        </li>
-        <li>
-          <a href="om_os.html">Om os</a>
-        </li>
-        <li>
-          <a href="kontakt.html">Kontakt</a>
-        </li>
-        <li>
-          <a href="find_os.html">Find os</a>
-        </li>
-      </ul>
-
-      <a class="logo" href="index.html">
-        <img
-          width="300"
-          height="105"
-          src="produkt-billeder-ophe/logo-kopi.svg"
-          alt="Logo"
-        />
-      </a>
-
-      <a
-        href="https://meandme.nemtakeaway.dk/order.php#default_alert_modal"
-        class="bestil"
-        >Bestil</a
-      >
-    </nav>
-  </header>
   <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="om_os.html">Om os</a>
+          </li>
+          <li>
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+          <li>
+            <a href="find_os.html">Find os</a>
+          </li>
+        </ul>
+
+        <a class="logo" href="index.html">
+          <img
+            width="300"
+            height="105"
+            src="produkt-billeder-ophe/logo-kopi.svg"
+            alt="Logo"
+          />
+        </a>
+
+        <a
+          href="https://meandme.nemtakeaway.dk/order.php#default_alert_modal"
+          class="bestil"
+          >Bestil</a
+        >
+      </nav>
+    </header>
     <main>
-      <h1>Menu</h1>
-      <h2>Bhani mi/vietnamesisk sandwich</h2>
+      <h1 class="menutitle">Menu</h1>
+      <h2 class="bmtitle">Bhani mi / vietnamesisk sandwich</h2>
       <section class="bhanmi">
         <div class="tcbh">
           <img
             src="produkt-billeder-ophe/bhanmi1.png"
             alt="Teriyaki Chicken Bhan Mi"
           />
-          <h3>Teriyaki Chicken Bhan Mi</h3>
+          <h3 class="produkttitle">Teriyaki Chicken Bhan Mi</h3>
           <p>Beskrivelse</p>
         </div>
         <div class="bhb">
           <img src="produkt-billeder-ophe/bhanmi2.png" alt="Bhan Mi Beef" />
-          <h3>Bhan Mi Beef</h3>
+          <h3 class="produkttitle">Bhan Mi Beef</h3>
           <p>Beksrivelse</p>
         </div>
       </section>
-      <h2>Poké Bowls</h2>
+      <h2 class="bmtitle">Poké Bowls</h2>
       <section class="pb">
         <div class="build">
           <img
             src="produkt-billeder-ophe/buildbowl.png"
             alt="Build Your Own Bowl"
           />
-          <h3>Build Your Own Bowl</h3>
+          <h3 class="produkttitle">Build Your Own Bowl</h3>
           <p>Beskrivelse</p>
         </div>
         <div class="protein">
@@ -82,7 +84,7 @@
             src="produkt-billeder-ophe/proteionbowl.png"
             alt="Protein Bowl"
           />
-          <h3>Protein Bowl</h3>
+          <h3 class="produkttitle">Protein Bowl</h3>
           <p>Beskrivelse</p>
         </div>
         <div class="beef">
@@ -90,7 +92,7 @@
             src="produkt-billeder-ophe/hawaiibowl.png"
             alt="Beef Hawaii Bowl"
           />
-          <h3>Beef Hawaii Bowl</h3>
+          <h3 class="produkttitle">Beef Hawaii Bowl</h3>
           <p>Beskrivelse</p>
         </div>
         <div class="sunny">
@@ -98,12 +100,12 @@
             src="produkt-billeder-ophe/salmonbowl.png"
             alt="Sunny Salmon Bowl"
           />
-          <h3>Sunny Salmon Bowl</h3>
+          <h3 class="produkttitle">Sunny Salmon Bowl</h3>
           <p>Beskrivelse</p>
         </div>
         <div class="tuna">
           <img src="produkt-billeder-ophe/tunabowl.png" alt="Tuna Lover Bowl" />
-          <h3>Tuna Lover Bowl</h3>
+          <h3 class="produkttitle">Tuna Lover Bowl</h3>
           <p>Beskrivelse</p>
         </div>
         <div class="sesam">
@@ -111,12 +113,73 @@
             src="produkt-billeder-ophe/sesamsalmon.png"
             alt="Sesame Salmon Bowl"
           />
-          <h3>Sesame Salmon Bowl</h3>
+          <h3 class="produkttitle">Sesame Salmon Bowl</h3>
           <p>Beksrivelse</p>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column social-media">
+          <div class="social-icons">
+            <a href="#" class="social-icon facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon tiktok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
 
+        <div class="footer-column contact-info">
+          <div class="contact-details">
+            <p>
+              <strong>Fisketorvet, Kalvebod Brygge 59, 1560 København</strong>
+            </p>
+            <br />
+            <p>+45 29 81 18 52</p>
+            <p><a href="mailto:Info@mewedining.dk">Info@mewedining.dk</a></p>
+          </div>
+        </div>
+
+        <div class="footer-column opening-hours">
+          <h3>Åbningstider</h3>
+          <div class="hours-list">
+            <div class="hours-item">
+              <span class="day">Mandag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Tirsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Onsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Torsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Fredag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Lørdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Søndag:</span>
+              <span class="time">10:00-18:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/login.js"></script>
   </body>
 </html>

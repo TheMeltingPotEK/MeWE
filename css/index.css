@@ -1,0 +1,54 @@
+/* SEKSTION 1 */
+.hero_header {
+  width: 100%;
+  min-height: 400px; /* justér højden efter behov */
+}
+
+.hero_header__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+/* SEKSTION 2 */
+.om_os {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* Sørger for at overskriften går over begge kolonner */
+.om_os h1 {
+  grid-column: 1 / -1;
+}
+
+/* Billede */
+.billede_1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tekst + button */
+.info_om_os {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* SEKSTION 3 */
+
+/* GENERAL */
+
+@media (max-width: 768px) {
+  .om_os {
+    grid-template-columns: 1fr;
+  }
+
+  .om_os h1 {
+    grid-column: 1;
+  }
+}

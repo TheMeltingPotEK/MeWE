@@ -16,68 +16,166 @@
     <link rel="stylesheet" href="css/kontakt.css" />
   </head>
   <body>
-    <!-- SECTION 1: HERO -->
-    <section class="kontakt_hero">
-      <div class="kontakt_hero__card">
-        <h1>Kontakt Me&We Fisketorvet</h1>
-        <p>
-          Har du spørgsmål til en bestilling, allergener eller noget praktisk?
-          Du kan kontakte os her.
-        </p>
-      </div>
-    </section>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="om_os.html">Om os</a>
+          </li>
+          <li>
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+          <li>
+            <a href="find_os.html">Find os</a>
+          </li>
+        </ul>
 
-    <!-- SECTION 2: INFO + FORM -->
-    <section class="kontakt_content">
-      <div class="kontakt_content__inner">
-        <div class="kontakt_info">
-          <h2>Info</h2>
-          <p><strong>Adresse</strong><br />Fisketorvet 12, 2100 København Ø</p>
-          <p><strong>Åbningstider</strong><br />Man–Søn: 10–22</p>
+        <a class="logo" href="index.html">
+          <img
+            width="300"
+            height="105"
+            src="produkt-billeder-ophe/logo-kopi.svg"
+            alt="Logo"
+          />
+        </a>
+
+        <a
+          href="https://meandme.nemtakeaway.dk/order.php#default_alert_modal"
+          class="bestil"
+          >Bestil</a
+        >
+      </nav>
+    </header>
+    <main>
+      <!-- SECTION 1: HERO -->
+      <section class="kontakt_hero">
+        <div class="kontakt_hero__card">
+          <h1>Kontakt Me&We Fisketorvet</h1>
           <p>
-            <strong>Tlf. &amp; Email</strong><br />+45 12 34 56 78<br />info@meandwe.dk
+            Har du spørgsmål til en bestilling, allergener eller noget praktisk?
+            Du kan kontakte os her.
           </p>
-          <button type="button">Find os</button>
         </div>
+      </section>
 
-        <form class="kontakt_form">
-          <h2>Kontaktformular</h2>
-          <input type="text" placeholder="Navn" required />
-          <input type="email" placeholder="Email" required />
-          <input type="tel" placeholder="Tlf" />
-
-          <select>
-            <option value="">Vælg emne</option>
-            <option value="ordre">Ordre</option>
-            <option value="spg">Spørgsmål</option>
-            <option value="allergener">Allergener</option>
-            <option value="andet">Andet</option>
-          </select>
-
-          <textarea rows="5" placeholder="Besked" required></textarea>
-
-          <div class="checkbox">
-            <label><input type="checkbox" /> 1. må vi behandle...</label>
-          </div>
-          <div class="checkbox">
-            <label><input type="checkbox" /> 2. må vi dit dat</label>
+      <!-- SECTION 2: INFO + FORM -->
+      <section class="kontakt_content">
+        <div class="kontakt_content__inner">
+          <div class="kontakt_info">
+            <h2>Info</h2>
+            <p>
+              <strong>Adresse</strong><br />Fisketorvet 12, 2100 København Ø
+            </p>
+            <p><strong>Åbningstider</strong><br />Man–Søn: 10–22</p>
+            <p>
+              <strong>Tlf. &amp; Email</strong><br />+45 12 34 56 78<br />info@meandwe.dk
+            </p>
+            <a href="find_os.html"><button type="button">Find os</button></a>
           </div>
 
-          <button type="submit" class="kontakt_form__submit">Send</button>
-        </form>
-      </div>
-    </section>
+          <form class="kontakt_form">
+            <h2>Kontaktformular</h2>
+            <input type="text" placeholder="Navn" required />
+            <input type="email" placeholder="Email" required />
+            <input type="tel" placeholder="Tlf" />
 
-    <!-- SECTION 3: CTA IMAGE -->
-    <section class="kontakt_cta">
-      <div class="kontakt_cta__overlay">
-        <div class="kontakt_cta__buttons">
-          <button type="button">Se menuen</button>
-          <button type="button">Bestil her</button>
+            <select>
+              <option value="">Vælg emne</option>
+              <option value="ordre">Ordre</option>
+              <option value="spg">Spørgsmål</option>
+              <option value="allergener">Allergener</option>
+              <option value="andet">Andet</option>
+            </select>
+
+            <textarea rows="5" placeholder="Besked" required></textarea>
+
+            <div class="checkbox">
+              <label><input type="checkbox" /> 1. må vi behandle...</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" /> 2. må vi dit dat</label>
+            </div>
+
+            <button type="submit" class="kontakt_form__submit">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- SECTION 3: CTA IMAGE -->
+      <section class="kontakt_cta">
+        <div class="kontakt_cta__overlay">
+          <div class="kontakt_cta__buttons">
+            <button type="button">Se menuen</button>
+            <button type="button">Bestil her</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column social-media">
+          <div class="social-icons">
+            <a href="#" class="social-icon facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon tiktok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column contact-info">
+          <div class="contact-details">
+            <p>
+              <strong>Fisketorvet, Kalvebod Brygge 59, 1560 København</strong>
+            </p>
+            <br />
+            <p>+45 29 81 18 52</p>
+            <p><a href="mailto:Info@mewedining.dk">Info@mewedining.dk</a></p>
+          </div>
+        </div>
+
+        <div class="footer-column opening-hours">
+          <h3>Åbningstider</h3>
+          <div class="hours-list">
+            <div class="hours-item">
+              <span class="day">Mandag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Tirsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Onsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Torsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Fredag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Lørdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Søndag:</span>
+              <span class="time">10:00-18:00</span>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-
+    </footer>
     <script src="js/login.js"></script>
   </body>
 </html>

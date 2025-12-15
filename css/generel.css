@@ -8,7 +8,7 @@ html,
 body {
   height: 100%;
   font-family: var(--font-family-body);
-  background-color: var(--color-bg);
+  background-color: var(--color-accent-beige);
   color: var(--color-text);
 }
 

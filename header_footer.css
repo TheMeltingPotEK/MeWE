@@ -11,64 +11,6 @@ body {
   background-color: #c3d3a5;
 }
 
-/* Find Os Section */
-.find-os-section {
-  min-height: 100vh;
-  padding: 3rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-
-.find-os-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  font-weight: 600;
-  color: #ffe7bf;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.map-container {
-  max-width: 800px;
-  width: 100%;
-}
-
-.map-image {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.pin-container {
-  margin: 1rem 0;
-}
-
-.map-pin-link {
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.map-pin-link:hover {
-  transform: scale(1.1);
-}
-
-.map-pin {
-  width: 60px;
-  height: auto;
-}
-
-.location-text {
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #f1ebd9;
-  text-align: center;
-  margin-top: 1rem;
-}
-
 /* Mobile responsive for Find Os section */
 @media (max-width: 768px) {
   .find-os-title {

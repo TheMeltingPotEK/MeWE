@@ -131,3 +131,56 @@ main {
     text-align: center;
   }
 }
+
+/* HEADER STYLING */
+
+.logo {
+  position: sticky;
+  justify-self: center;
+  display: inline-block;
+}
+
+.logo img {
+  max-height: 45px;
+}
+
+header {
+  position: sticky;
+  align-items: start;
+  top: 0;
+  padding: 30px;
+  background-color: #2e6b3e;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+
+  /* justify-content: space-between; */
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  display: block;
+  color: #c3d3a5;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: Helvetica Neue;
+  /* text-align: left; */
+}
+
+.menu a:hover {
+  color: #fff;
+}

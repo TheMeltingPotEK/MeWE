@@ -1,0 +1,13 @@
+/* FONTER OG FARVER */
+.menutitle {
+  font-size: var(--font-h1-size);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-heading);
+  padding-bottom: 3rem;
+}
+
+.bhanmi p {
+  font-size: var(--font-body-size);
+  font-weight: var(--font-weight-regular);
+  font-family: var(--font-body-size);
+}

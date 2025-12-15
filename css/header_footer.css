@@ -20,7 +20,7 @@ main {
   background-color: #2e6b3e;
   padding: 2rem;
   border-top: 2px solid #333;
-  color: white;
+  color: var(--color-contrast-green);
 }
 
 .footer-container {
@@ -79,11 +79,11 @@ main {
 .contact-details p {
   margin-bottom: 0.5rem;
   font-size: 18px;
-  color: white;
+  color: var(--color-contrast-green);
 }
 
 .contact-details a {
-  color: white;
+  color: var(--color-contrast-green);
   text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ main {
 .opening-hours h3 {
   margin-bottom: 1rem;
   font-size: 24px;
-  color: white;
+  color: var(--color-contrast-green);
 }
 
 .hours-item {
@@ -108,7 +108,7 @@ main {
   gap: 1rem;
   margin-bottom: 0.3rem;
   font-size: 18px;
-  color: white;
+  color: var(--color-contrast-green);
 }
 
 /* Mobile responsive */
@@ -183,4 +183,14 @@ nav {
 
 .menu a:hover {
   color: #fff;
+}
+
+.bestil {
+  width: fit-content;
+  background-color: #d45a33;
+  border-radius: 70px;
+  padding: 10px 50px;
+  text-decoration: none;
+  color: #fff;
+  justify-self: right;
 }

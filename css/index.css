@@ -9,13 +9,13 @@ body {
 .hero_header {
   width: 100%; /* Fylder hele skærmen i bredden */
   height: 90vh; /* Fylder næsten hele skærmhøjden */
-  background-image: url("din-baggrund.jpg"); /* Udskift med dit billede */
-  background-size: cover; /* Dækker hele området */
+  background-image: url("../Mewe_billeder/6ea97aae-4509-4002-baa9-2a983a12ecdd.jpg"); /* Udskift med dit billede */
+  background-size: cover;
   background-position: center; /* Centrér billedet */
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative; /* Overlay fungerer korrekt */
+  position: relative;
   overflow: hidden;
 }
 

@@ -1,25 +1,11 @@
-/* Simple reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* =========================
+   FOOTER
+========================= */
 
-body {
-  font-family: Arial, sans-serif;
-  color: #333;
-}
-
-main {
-  min-height: 80vh;
-  padding: 2rem;
-}
-
-/* Footer - Simple 3-column layout */
 .footer {
-  background-color: #2e6b3e;
+  background-color: var(--color-head-bg); /* was #2e6b3e */
   padding: 2rem;
-  border-top: 2px solid #333;
+  border-top: 2px solid rgba(0, 0, 0, 0.25);
   color: var(--color-contrast-green);
 }
 
@@ -27,18 +13,19 @@ main {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  gap: 2rem;
 }
 
 .footer-column {
   flex: 1;
-  padding: 0 1rem;
 }
 
 .footer-column:first-child {
-  padding-left: 0;
+  /* optional extra spacing if you want – currently not needed */
 }
 
-/* Left column - Social media */
+/* Left column – Social media */
+
 .social-icons {
   display: flex;
   flex-direction: row;
@@ -59,26 +46,29 @@ main {
 .social-icon.facebook {
   background-color: #1877f2;
 }
+
 .social-icon.instagram {
   background: linear-gradient(45deg, #f09433, #dc2743, #bc1888);
 }
+
 .social-icon.tiktok {
   background-color: #000;
 }
 
 .social-icon i {
-  color: white;
+  color: #ffffff;
   font-size: 24px;
 }
 
-/* Center column - Contact info */
+/* Center column – Contact info */
+
 .contact-info {
   text-align: center;
 }
 
 .contact-details p {
   margin-bottom: 0.5rem;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   color: var(--color-contrast-green);
 }
 
@@ -91,14 +81,15 @@ main {
   text-decoration: underline;
 }
 
-/* Right column - Opening hours */
+/* Right column – Opening hours */
+
 .opening-hours {
   text-align: right;
 }
 
 .opening-hours h3 {
   margin-bottom: 1rem;
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   color: var(--color-contrast-green);
 }
 
@@ -107,11 +98,14 @@ main {
   justify-content: flex-end;
   gap: 1rem;
   margin-bottom: 0.3rem;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   color: var(--color-contrast-green);
 }
 
-/* Mobile responsive */
+/* =========================
+   FOOTER – RESPONSIVE
+========================= */
+
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -123,78 +117,14 @@ main {
   }
 
   .social-icons {
-    flex-direction: row;
     justify-content: center;
   }
 
   .opening-hours {
     text-align: center;
   }
-}
 
-/* HEADER STYLING */
-
-.logo {
-  position: sticky;
-  justify-self: center;
-  display: inline-block;
-}
-
-.logo img {
-  max-height: 45px;
-}
-
-header {
-  position: sticky;
-  align-items: start;
-  top: 0;
-  padding: 30px;
-  background-color: #2e6b3e;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-
-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-
-  /* justify-content: space-between; */
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  margin-right: 20px;
-}
-
-.menu a {
-  display: block;
-  color: #c3d3a5;
-  text-decoration: none;
-  transition: color 0.3s;
-  font-family: Helvetica Neue;
-  /* text-align: left; */
-}
-
-.menu a:hover {
-  color: #fff;
-}
-
-.bestil {
-  width: fit-content;
-  background-color: #d45a33;
-  border-radius: 70px;
-  padding: 10px 50px;
-  text-decoration: none;
-  color: #fff;
-  justify-self: right;
-}
-
-.bestil a {
-  font-family: helvetica neue;
+  .hours-item {
+    justify-content: center;
+  }
 }

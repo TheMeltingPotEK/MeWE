@@ -71,3 +71,35 @@ main {
 }
 
 /* BUBBLE TEA SECTION */
+@media (width>=800px) {
+  .drikkelse-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+  }
+}
+.drikkelse-menu img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+
+.milktea p {
+  margin: 1rem;
+}
+
+.freshmilk p {
+  margin: 1rem;
+}
+
+.fruit p {
+  margin: 1rem;
+}
+.yoghurt p {
+  margin: 1rem;
+}
+.butterfly p {
+  margin: 1rem;
+}

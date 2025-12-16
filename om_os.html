@@ -10,10 +10,47 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/variabler.css" />
+    <link rel="stylesheet" href="css/header_footer.css" />
+    <link rel="stylesheet" href="css/om_os.css" />
   </head>
   <body>
-    <!-- 1. INTRO -->
-    <header id="intro" class="section">
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="om_os.html">Om os</a>
+          </li>
+          <li>
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+          <li>
+            <a href="find_os.html">Find os</a>
+          </li>
+        </ul>
+
+        <a class="logo" href="index.html">
+          <img
+            width="300"
+            height="105"
+            src="produkt-billeder-ophe/logo-kopi.svg"
+            alt="Logo"
+          />
+        </a>
+
+        <a
+          href="https://meandme.nemtakeaway.dk/order.php#default_alert_modal"
+          class="bestil"
+          >Bestil</a
+        >
+      </nav>
+    </header>
+    <main>
       <h1 class="section-title">Velkommen til ME & WE Dining</h1>
       <p>
         MEWE Dining er skabt til den gæst, der søger en unik madoplevelse med
@@ -27,70 +64,132 @@
         grupper i alle størrelser og former, der elsker mad, variation og nye
         oplevelser.
       </p>
-    </header>
 
-    <!-- 2. MISSION -->
-    <section id="mission" class="section">
-      .
-      <h2 class="section-title">Vores Mission</h2>
-      <p>
-        Vores mission er at dele den asiatiske kultur, hvor mad ikke kun er
-        noget du spiser men noget du oplever. Et sted hvor kvalitet møder
-        convenience, og hvor hver ret er designet til at blive delt og nydt. Om
-        du så tager det med hjem og nyder det, eller spiser det på farten
-      </p>
-    </section>
+      <!-- 2. MISSION -->
+      <section id="mission" class="section">
+        .
+        <h2 class="section-title">Vores Mission</h2>
+        <p>
+          Vores mission er at dele den asiatiske kultur, hvor mad ikke kun er
+          noget du spiser men noget du oplever. Et sted hvor kvalitet møder
+          convenience, og hvor hver ret er designet til at blive delt og nydt.
+          Om du så tager det med hjem og nyder det, eller spiser det på farten
+        </p>
+      </section>
 
-    <!-- 3. KONCEPT -->
-    <section id="concept" class="section">
-      <h2 class="section-title">Hvad Gør Os Unikke?</h2>
+      <!-- 3. KONCEPT -->
+      <section id="concept" class="section">
+        <h2 class="section-title">Hvad Gør Os Unikke?</h2>
 
-      <div class="concept-grid">
-        <div class="concept-card">Friske råvarer</div>
-        <div class="concept-card">Eksperimenterende smage</div>
-        <div class="concept-card">Hurtigt, praktisk & nemt</div>
+        <div class="concept-grid">
+          <div class="concept-card">Friske råvarer</div>
+          <div class="concept-card">Eksperimenterende smage</div>
+          <div class="concept-card">Hurtigt, praktisk & nemt</div>
+        </div>
+      </section>
+
+      <!-- 4. HISTORIE -->
+      <section id="story" class="section">
+        <h2 class="section-title">Vores Historie</h2>
+        <p>
+          ME & WÉ begyndte som en idé om at skabe et spisested, der kombinerer
+          individualitet og fællesskab i hjertet af Aarhus. i Aarhus er det en
+          restuarant hvor du har muligheden for at sidde ned og nyde maden. dog
+          har vi åbnet en afdeling i københavn, med tanken om at dele vores mad
+          på en anden mere effektiv måde. i stedet for en restuarant, har vi
+          åbnet en takeaway afdeling i Fisketorvet, København. Med vores rebrand
+          af afdelingen i københavn. Her ønsker vi at ramme det moderne byliv
+          hvor smag, stemning og sociale oplevelser går hånd i hånd.
+        </p>
+      </section>
+
+      <!-- 5. MØD VORES MEDARBEJDERE -->
+      <section id="team" class="section">
+        <h2 class="section-title">Mød vores medarbejdere</h2>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="staff1.jpg" alt="Medarbejder 1" />
+            <h3>Navn 1</h3>
+            <p>Rolle / Titel</p>
+          </div>
+
+          <div class="team-card">
+            <img src="staff2.jpg" alt="Medarbejder 2" />
+            <h3>Navn 2</h3>
+            <p>Rolle / Titel</p>
+          </div>
+
+          <div class="team-card">
+            <img src="staff3.jpg" alt="Medarbejder 3" />
+            <h3>Navn 3</h3>
+            <p>Rolle / Titel</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column social-media">
+          <div class="social-icons">
+            <a href="#" class="social-icon facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon tiktok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column contact-info">
+          <div class="contact-details">
+            <p>
+              <strong>Fisketorvet, Kalvebod Brygge 59, 1560 København</strong>
+            </p>
+            <br />
+            <p>+45 29 81 18 52</p>
+            <p><a href="mailto:Info@mewedining.dk">Info@mewedining.dk</a></p>
+          </div>
+        </div>
+
+        <div class="footer-column opening-hours">
+          <h3>Åbningstider</h3>
+          <div class="hours-list">
+            <div class="hours-item">
+              <span class="day">Mandag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Tirsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Onsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Torsdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Fredag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Lørdag:</span>
+              <span class="time">10:00-20:00</span>
+            </div>
+            <div class="hours-item">
+              <span class="day">Søndag:</span>
+              <span class="time">10:00-18:00</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <!-- 4. HISTORIE -->
-    <section id="story" class="section">
-      <h2 class="section-title">Vores Historie</h2>
-      <p>
-        ME & WÉ begyndte som en idé om at skabe et spisested, der kombinerer
-        individualitet og fællesskab i hjertet af Aarhus. i Aarhus er det en
-        restuarant hvor du har muligheden for at sidde ned og nyde maden. dog
-        har vi åbnet en afdeling i københavn, med tanken om at dele vores mad på
-        en anden mere effektiv måde. i stedet for en restuarant, har vi åbnet en
-        takeaway afdeling i Fisketorvet, København. Med vores rebrand af
-        afdelingen i københavn. Her ønsker vi at ramme det moderne byliv hvor
-        smag, stemning og sociale oplevelser går hånd i hånd.
-      </p>
-    </section>
-
-    <!-- 5. MØD VORES MEDARBEJDERE -->
-    <section id="team" class="section">
-      <h2 class="section-title">Mød vores medarbejdere</h2>
-
-      <div class="team-grid">
-        <div class="team-card">
-          <img src="staff1.jpg" alt="Medarbejder 1" />
-          <h3>Navn 1</h3>
-          <p>Rolle / Titel</p>
-        </div>
-
-        <div class="team-card">
-          <img src="staff2.jpg" alt="Medarbejder 2" />
-          <h3>Navn 2</h3>
-          <p>Rolle / Titel</p>
-        </div>
-
-        <div class="team-card">
-          <img src="staff3.jpg" alt="Medarbejder 3" />
-          <h3>Navn 3</h3>
-          <p>Rolle / Titel</p>
-        </div>
-      </div>
-    </section>
+    </footer>
     <script src="js/login.js"></script>
   </body>
 </html>

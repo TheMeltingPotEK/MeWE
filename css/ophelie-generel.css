@@ -82,8 +82,11 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px;
   padding-bottom: 20px;
+}
+
+.drikkelse_billeder {
+  border-radius: 15px;
 }
 
 .milktea p {

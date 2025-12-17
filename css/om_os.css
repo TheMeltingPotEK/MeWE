@@ -1,123 +1,92 @@
-section,
-header {
-  padding: 60px 20px;
+.section-om-os {
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 60px 20px;
 }
 
-.section-title {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
+.section-h1,
+.section-h2 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.navbar {
-  padding: 15px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  position: sticky;
-  top: 0;
-  z-index: 10;
+.om-os-p {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
 }
 
-.logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-
-#menu-toggle,
-#drop-toggle {
-  display: none;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-}
-
-.menu a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background: white;
-  padding: 10px 0;
-  list-style: none;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  margin-top: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.dropdown-menu li {
-  padding: 10px 20px;
-}
-
-/* Desktop hover dropdown */
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-/* Mobile styling */
-@media (max-width: 850px) {
-  .burger {
-    display: block;
+@media (max-width: 600px) {
+  .section-om-os {
+    padding: 35px 15px;
   }
 
-  .menu {
-    display: none;
-    position: absolute;
-    top: 70px;
-    right: 0;
+  .section-h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .section-h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+
+  .om-os-p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+
+  .om-os-img img {
     width: 100%;
-    background: white;
-    flex-direction: column;
-    padding: 20px 0;
-    border-top: 1px solid #eee;
+    height: auto;
+    border-radius: 12px;
   }
 
-  #menu-toggle:checked + .burger + .menu {
-    display: flex;
+  .koncept-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
 
-  .dropdown-menu {
-    position: static;
-    border: none;
-    box-shadow: none;
+  .koncept-kort {
+    font-size: 1rem;
+    padding: 15px;
   }
 
-  .drop-btn {
-    font-weight: bold;
-    cursor: pointer;
-    display: block;
-    padding: 10px 20px;
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 15px;
   }
 
-  #drop-toggle:checked + .drop-btn + .dropdown-menu {
-    display: block;
+  .team-om-os {
+    padding: 15px;
   }
 
-  .dropdown:hover .dropdown-menu {
-    display: none;
+  .team-om-os img {
+    height: 200px;
+  }
+
+  .team-om-os h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  .team-om-os p {
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 }
 
 /* KONCEPT GRID */
-.concept-grid {
+.koncept-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
   margin-top: 30px;
 }
 
-.concept-card {
+.koncept-kort {
   background: #fff;
   padding: 20px;
   border-radius: 12px;
@@ -126,25 +95,13 @@ header {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* VÆRDIER GRID */
-.values-grid {
+.koncept-kort {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   margin-top: 30px;
 }
 
-.value-card {
-  background: #fff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  text-align: center;
-}
-
-.value-card h3 {
-  margin-top: 0;
-}
 /* TEAM GRID */
 .team-grid {
   display: grid;
@@ -152,8 +109,14 @@ header {
   gap: 25px;
   margin-top: 30px;
 }
-
-.team-card {
+.team-grid {
+  background: #6faf63;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+.team-om-os {
   background: #fff;
   padding: 20px;
   border-radius: 12px;
@@ -161,7 +124,7 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.team-card img {
+.team-om-os img {
   width: 100%;
   height: 250px;
   object-fit: cover;

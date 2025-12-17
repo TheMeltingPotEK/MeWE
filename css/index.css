@@ -17,7 +17,7 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
-  opacity: 80%;
+  opacity: 75%;
 }
 
 .hero_header__overlay {
@@ -70,7 +70,7 @@
 .om_os h1 {
   grid-column: 1 / -1;
   margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 20px;
   line-height: 2;
 }
 
@@ -85,13 +85,13 @@
 .info_om_os {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* SEKSTION 3 */
 .find_os h1 {
-  margin-bottom: 120px;
-  margin-top: 170px;
+  margin-bottom: 70px;
+  margin-top: 50px;
   line-height: 2;
 }
 
@@ -106,20 +106,20 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 300px;
+  gap: 240px;
   line-height: 1.8;
   margin-bottom: 200px;
 }
 
 .lokationer p {
-  gap: 200px;
-  line-height: 5;
+  gap: 20px;
+  line-height: 7;
   font-weight: var(--font-weight-bold);
 }
 
 .maps {
   justify-self: end;
-  gap: 300px;
+  gap: 200px;
   display: flex;
   flex-direction: column;
 }

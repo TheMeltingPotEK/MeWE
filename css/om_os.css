@@ -11,8 +11,6 @@ header {
   text-align: center;
 }
 
-/* NAV */
-/* ===== NAVBAR ===== */
 .navbar {
   padding: 15px 20px;
   display: flex;
@@ -29,13 +27,11 @@ header {
   font-weight: bold;
 }
 
-/* gem default tjekbox */
 #menu-toggle,
 #drop-toggle {
   display: none;
 }
 
-/* Menu desktop */
 .menu {
   list-style: none;
   display: flex;
@@ -111,12 +107,6 @@ header {
   .dropdown:hover .dropdown-menu {
     display: none;
   }
-}
-
-nav a {
-  text-decoration: none;
-  margin: 0 12px;
-  font-weight: bold;
 }
 
 /* KONCEPT GRID */

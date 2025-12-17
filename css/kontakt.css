@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background-image: url("");
+  background-image: url("../Mewe_billeder/IMG_9840.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -53,8 +53,8 @@
   background-color: var(--color-accent-beige); /* light beige */
   padding: 7rem 1.5rem;
   z-index: 1;
-  box-shadow: 0 -25px 35px rgba(0, 0, 0, 0.12),
-    /* top shadow */ 0 25px 35px rgba(0, 0, 0, 0.12); /* bottom shadow */
+  box-shadow: 0 -25px 35px rgba(0, 0, 0, 0.4),
+    /* top shadow */ 0 25px 35px rgba(0, 0, 0, 0.4); /* bottom shadow */
 }
 
 .kontakt_content__inner {
@@ -156,19 +156,13 @@
   }
 }
 
-/* Shadows */
-
-/* =========================
-   SECTION 3 – CTA IMAGE
-========================= */
-
 /* =========================
    SECTION 3 – CTA IMAGE
 ========================= */
 
 .kontakt_cta {
   padding: 8rem 1.5rem;
-  background-image: url("../img/kontakt-cta.jpg");
+  background-image: url("../Mewe_billeder/ac3b66c2-24e4-41df-aa49-64c3f3bbff82.jpg");
   background-size: cover;
   background-position: center;
   display: flex;

@@ -1,22 +1,23 @@
-body {
-  max-width: 1200px; /* Bredden på hele siden */
-  margin: 0 auto; /* Centrerer indholdet */
-  padding: 0 20px; /* Luft på siderne på små skærme */
+/* body {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
   box-sizing: border-box;
-}
+} */
 
 /* SEKSTION 1 */
 .hero_header {
-  width: 100%; /* Fylder hele skærmen i bredden */
-  height: 90vh; /* Fylder næsten hele skærmhøjden */
-  background-image: url("../Mewe_billeder/6ea97aae-4509-4002-baa9-2a983a12ecdd.jpg"); /* Udskift med dit billede */
+  width: 100%;
+  height: 90vh;
+  background-image: url("../Mewe_billeder/IMG_9840.jpeg");
   background-size: cover;
-  background-position: center; /* Centrér billedet */
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
+  opacity: 80%;
 }
 
 .hero_header__overlay {
@@ -25,7 +26,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay */
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,8 +39,8 @@ body {
 }
 
 .hero_header__content h1 {
-  font-size: 5rem; /* ME&WE */
-  font-weight: 100;
+  font-size: 8rem; /* ME&WE */
+  font-weight: 200;
   margin: 0;
   line-height: 2;
 }
@@ -66,7 +67,6 @@ body {
   align-items: center;
 }
 
-/* Sørger for at overskriften går over begge kolonner */
 .om_os h1 {
   grid-column: 1 / -1;
   margin-bottom: 100px;
@@ -97,8 +97,8 @@ body {
 
 .lokationer-maps {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* To kolonner */
-  gap: 20px; /* Afstand mellem adresse og kort */
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
   align-items: start;
 }
 
@@ -106,17 +106,26 @@ body {
   text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 300px; /* Afstand mellem hver adresse */
+  gap: 300px;
   line-height: 1.8;
+  margin-bottom: 200px;
 }
 
 .lokationer p {
   gap: 200px;
   line-height: 5;
+  font-weight: var(--font-weight-bold);
 }
 
 .maps {
-  justify-self: end; /* Højre side */
+  justify-self: end;
+  gap: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aabningstider {
+  margin-top: -250px;
 }
 
 /* GENERAL */
@@ -131,6 +140,14 @@ main {
   background-color: #000;
   margin: 120px auto;
   opacity: 0.3;
+}
+
+.section2,
+.section3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 /* Mobil Version */

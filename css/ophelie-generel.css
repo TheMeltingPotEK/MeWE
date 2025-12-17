@@ -97,9 +97,25 @@ main {
 .fruit p {
   margin: 1rem;
 }
+
 .yoghurt p {
   margin: 1rem;
+  grid-row: 3;
 }
+
 .butterfly p {
   margin: 1rem;
+  grid-row: 3;
+}
+@media (width>=800px) {
+  .yoghurt {
+    grid-row: 3;
+    padding-top: 250px;
+    padding-bottom: 35rem;
+  }
+  .butterfly {
+    grid-row: 3;
+    padding-top: 250px;
+    padding-bottom: 35rem;
+  }
 }

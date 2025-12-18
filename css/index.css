@@ -39,10 +39,10 @@
 }
 
 .hero_header__content h1 {
-  font-size: 9rem; /* ME&WE */
-  font-weight: 220;
+  font-size: 7rem;
+  font-weight: 400;
   margin: 0;
-  line-height: 2;
+  line-height: 3.5;
 }
 
 /* h2 under heroheaderen */
